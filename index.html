@@ -4,11 +4,143 @@
     <title>html cheatsheet</title>
 </head>
 <body>
+    <a href="blog.html">Go to blog</a>
     <h1>Heading one</h1>
-    <h2>Headig Two</h2>
+    <h2>Heading Two</h2>
     <h3>Heading Three</h3>
     <h4>Heading Four</h4>
     <h5>Heading Five </h5>
     <h6>Heading Six</h6>
+    
+    <p>
+        <!--em: to emphasize
+    strong: bold text-->
+        Lorem ipsum dolor sit amet, 
+        consectetur <strong>adipisicing elit.</strong> Officia numquam quas
+        laborum fugit consequuntur, dolor saepe cum,
+        voluptatibus at <em>atque eius</em> odio earum excepturi
+        a quod animi quis? Rerum, qui.
+    </p>
+    <p>
+        Lorem ipsum dolor,<a href="http://google.com" target="_blank"> sit amet consectetur
+        adipisicing elit</a>. Dolores libero quis eos, 
+        omnis assumenda ipsa, debitis dolore laboriosam
+        eaque animi quasi, rem numquam 
+        aliquid et voluptates deserunt enim 
+        voluptatum illum?
+    </p>
+    <!--Lists  -->
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+    </ul>
+    <ol>
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+    </ol>
+    <!-- Tables 
+    tr: table row, th: table heading -->
+    <table>
+        <thead>
+            <tr>
+                <!--Row headings-->
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>shan</td>
+                <td>shanasif382@gmail.com</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>jack</td>
+                <td>jac123@gmail.com</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>travis</td>
+                <td>travis444@gmail.com</td>
+                <td>24</td>
+            </tr>
+        </tbody>
+    </table>
+    <!--br:space,hr:horizontal line -->
+    <br> 
+    <hr>
+    <br>
+     <!--forms-->
+     <forms action="process.php" method="POST">
+         <div>
+             <label>First Name</label>
+             <input type="text" name="firstName"
+             placeholder="Enter first name"> 
+         </div>
+         <br>
+         <div>
+             <label>Last Name</label>
+             <input type="text" name="lastName"
+             placeholder="Enter last name">
+         </div>
+         <br>
+         <div>
+             <label>Email</label>
+             <input type="text" name="Email"
+             placeholder="Email address">
+         </div>
+         <br>
+         <div>
+             <label>Message</label>
+             <textarea name="message"></textarea>
+         </div>
+         <br>
+         <div>
+             <label>Age</label>
+             <input type="number" name="age" value="30">
+         </div>
+         <br>
+         <div>
+             <label>Gender</label>
+             <select name="gender">
+                 <option value="Male">Male</option>
+                 <option value="Female">Female</option>
+                 <option value="others">Others</option>
+             </select>
+         </div>
+         <br>
+         <div>
+             <label>Birthday</label>
+             <input type="date" name="birthday">
+         </div>
+         <br>
+         <input type="submit" name="submit"
+         value="Submit">
+     </forms>
+     <!--Buttons <button></button>-->
+     <!--Image-->
+     <a href="images/image.jpg">
+     <img src="images/image.jpg" alt="My sample image"
+     width="200">
+     </a>
+     <!--blockquote
+    some quotes cited from others-->
+    <blockquote cite="http://whateverthecite.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptatum, necessitatibus. Obcaecati consequatur dolorem,
+        inventore tempore officiis nesciunt tempora praesentium.
+        Rerum repellendus dolores ipsum velit magni facere iure \
+        quaerat quod. Esse!
+    </blockquote>
+    <p>The <abbr title="World wide web">WWW</abbr>is amazing</p>
+    <div style="margin-top:500px"></div>
+    <!--cite tag is semantic something that browser knows cited
+    -->
+
 </body>
 </html>
